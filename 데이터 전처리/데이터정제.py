@@ -5,7 +5,7 @@ pd.set_option('display.max_columns', None)
 # column을 same line으로 fit
 pd.set_option('display.width', None)
 
-marathon_2017 = pd.read_csv("marathon_results_2017.csv")
+marathon_2017 = pd.read_csv("../data/marathon_results_2017.csv")
 
 # 상위 5개 행 가져오기
 print(marathon_2017.head())

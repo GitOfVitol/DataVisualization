@@ -3,9 +3,9 @@ import numpy as np
 
 pd.set_option('display.max_columns', None)
 
-marathon_2015 = pd.read_csv("marathon_results_2015.csv")
-marathon_2016 = pd.read_csv("marathon_results_2016.csv")
-marathon_2017 = pd.read_csv("marathon_results_2017.csv")
+marathon_2015 = pd.read_csv("../data/marathon_results_2015.csv")
+marathon_2016 = pd.read_csv("../data/marathon_results_2016.csv")
+marathon_2017 = pd.read_csv("../data/marathon_results_2017.csv")
 
 #concat은 기준 열 사용 없이 단순히 데이터를 연결, 기본적으로 위/아래로 데이터 행을 연결하며 단순히 연결해서 인덱스 값이 중복될 수 있음
 #이때 ignore_index=True로 하면 기존 index를 무시하고 index를 매길 수 있음

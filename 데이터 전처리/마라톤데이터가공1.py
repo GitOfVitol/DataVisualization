@@ -3,9 +3,9 @@ import numpy as np
 
 pd.set_option('display.max_columns', None)
 
-marathon_2015 = pd.read_csv("marathon_results_2015.csv")
-marathon_2016 = pd.read_csv("marathon_results_2016.csv")
-marathon_2017 = pd.read_csv("marathon_results_2017.csv")
+marathon_2015 = pd.read_csv("../data/marathon_results_2015.csv")
+marathon_2016 = pd.read_csv("../data/marathon_results_2016.csv")
+marathon_2017 = pd.read_csv("../data/marathon_results_2017.csv")
 
 marathon_2015['Year'] = '2015'
 marathon_2016['Year'] = '2016'

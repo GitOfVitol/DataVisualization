@@ -3,7 +3,7 @@ import pandas as pd
 # max_rows와 min_rows 주의 -> max보다 작은 값의 행을 출력하려면 min_rows로 설정
 pd.set_option("display.min_rows", 50)
 
-marathon_2017 = pd.read_csv("marathon_results_2017.csv")
+marathon_2017 = pd.read_csv("../data/marathon_results_2017.csv")
 
 marathon_2017_clean = marathon_2017.drop(['Unnamed: 0','Bib','Unnamed: 9'], axis=1)
 

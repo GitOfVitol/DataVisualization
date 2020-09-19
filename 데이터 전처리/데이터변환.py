@@ -19,7 +19,7 @@ marathon_2017_clean['Year'] = '2017'
 marathon_2017_clean['Official Time Sec'] = to_seconds(marathon_2017_clean['Official Time'])
 print(marathon_2017_clean.head())
 """
-marathon_2017 = pd.read_csv("marathon_results_2017.csv")
+marathon_2017 = pd.read_csv("../data/marathon_results_2017.csv")
 marathon_2017_clean = marathon_2017.drop(['Unnamed: 0','Bib','Unnamed: 9'], axis=1)
 
 marathon_2017_clean['Senior'] = marathon_2017_clean.Age > 60
